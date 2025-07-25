@@ -14,7 +14,7 @@
       <nav class="header__menu">
         <ul class="header__links-list">
           <li class="header-list-item header__list-item_no-bullit">
-            <a href="#" class="header__link_active"> главная </a>
+            <a href="#" class="header__link_active header__link"> главная </a>
           </li>
           <li class="header__links-list-item">
             <a href="#" class="header__link"> посмотреть лоты </a>
@@ -27,7 +27,7 @@
       <a class="header__logo">
         <img src="images/logo-black.svg" alt="" class="header__logo-image" />
       </a>
-      <address class="header__address">
+      <address class="header__address address">
         <a href="tel:+70000000">+9 999 555 5555</a><br />
         <a href="mailto:mail@example.com">info@sobaka.ge</a><br />
         наб. Принсенграхт 263-<br />265, Амстердам
@@ -49,7 +49,7 @@
           <p class="cover__description-text">
             аукцион вещей, в которые никто не верил
           </p>
-          <button class="bet-button">сделать ставку</button>
+          <button type="button" class="bet-button">сделать ставку</button>
         </div>
       </section>
       <section class="lots">
@@ -105,10 +105,10 @@
             </a>
           </li>
         </ul>
-        <p class="lots__look-more-link">посмотреть больше</p>
+        <a href="#"><p class="lots__look-more-link">посмотреть больше</p></a>
       </section>
       <section class="about">
-        <div class="about__column-left">
+        <div class="about__column-logo">
           <div class="about__logo">
             <img
               src="images/logo-white.svg"
@@ -117,9 +117,9 @@
             />
           </div>
         </div>
-        <div class="about__column-right">
+        <div class="about__column-about">
           <h2 class="about__title">Об аукционе</h2>
-          <p class="about__text-top">
+          <p class="about__text">
             Здесь вы не встретите очередное пафосное собрание невероятно
             дорогого антиквариата. Наши лоты вообще не должны были попасть<br />
             ни на один аукцион. Потому что кому нужен дневник девочки-<br />подростка
@@ -139,7 +139,7 @@
       </section>
     </main>
     <footer class="footer">
-      <address class="footer__address">
+      <address class="footer__address address">
         <a href="tel:+70000000">+9 999 555 5555</a><br />
         <a href="mailto:mail@example.com">info@sobaka.ge</a><br />
         наб. Принсенграхт 263-265,<br />
@@ -148,7 +148,9 @@
       <nav class="footer__menu">
         <ul class="footer__menu-list">
           <li class="footer__menu-list-item">
-            <a href="#" class="footer__menu-link_active">главная</a>
+            <a href="#" class="footer__menu-link_active footer__menu-list"
+              >главная</a
+            >
           </li>
           <li class="footer__menu-list-item">
             <a href="#" class="footer__menu-link">посмотреть лоты</a>
@@ -160,17 +162,17 @@
       </nav>
       <ul class="footer__social-list-item">
         <li class="footer__social-link">
-          <a href="#">
+          <a href="#" target="_blank">
             <img src="images/yt.svg" alt="ютуб" class="footer__social-icon" />
           </a>
         </li>
         <li class="footer__social-link">
-          <a href="#">
+          <a href="#" target="_blank">
             <img src="images/vk.svg" alt="vk" class="footer__social-icon" />
           </a>
         </li>
         <li class="footer__social-link">
-          <a href="#">
+          <a href="#" target="_blank">
             <img
               src="images/pinterest.svg"
               alt="pinterest"
